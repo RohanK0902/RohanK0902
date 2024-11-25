@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Kumar - Resume</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        
+        body {
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-info {
+            color: var(--text);
+            margin-bottom: 1rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .project {
+            margin-bottom: 1.5rem;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .skill-tag {
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 1rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        
+        li::before {
+            content: "•";
+            color: var(--primary);
+            font-weight: bold;
+            position: absolute;
+            left: -1rem;
+        }
+        
+        .education {
+            margin-bottom: 1rem;
+        }
+        
+        .education-title {
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rohan Kumar</h1>
+            <div class="contact-info">
+                📱 7488798671 | ✉️ rohankumarr.5280@gmail.com | 📍 Mumbai
+            </div>
+        </header>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-tag">Power BI</span>
+                <span class="skill-tag">Excel</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Tableau</span>
+                <span class="skill-tag">Advanced Excel</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project-title">Retail Sales Analysis | SQL Project</div>
+                <p>Developed a comprehensive retail sales analysis project using SQL to explore and interpret key business metrics. Conducted data cleaning, transformation, and advanced querying to derive insights on sales trends, customer behavior, and product performance. Delivered actionable insights through detailed reports, improving decision-making for retail operations.</p>
+            </div>
+
+            <div class="project">
+                <div class="project-title">Blinkit Data Analysis Dashboard</div>
+                <p>Comprehensive Power BI dashboard for analyzing Blinkit's sales performance, customer satisfaction, and inventory distribution.</p>
+                <ul>
+                    <li>Filter Panel for outlet location type, outlet size, and item type</li>
+                    <li>Outlet Establishment Trend visualization (2012-2022)</li>
+                    <li>Fat Content Analysis and Item Type Distribution</li>
+                    <li>Outlet Size and Location Analysis</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">E-commerce Analytics Dashboard</div>
+                <ul>
+                    <li>Engineered real-time sales analytics dashboard</li>
+                    <li>Implemented automated reporting system reducing manual reporting time by 30%</li>
+                    <li>Created interactive visualizations for sales, inventory, and customer metrics</li>
+                    <li>Developed custom DAX measures for advanced performance tracking</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div class="education-title">SRM Institute Of Science & Technology (Deemed University) | Chennai</div>
+                <div>Civil Engineering | Expected Graduation: 06/2024</div>
+                <div>CGPA: 8.6</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <ul>
+                <li>Data Analyst-ExcelR</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Workshop</h2>
+            <div class="project">
+                <div class="project-title">Workshop on AI Tools</div>
+                <ul>
+                    <li>Attended an interactive workshop focused on leveraging AI tools</li>
+                    <li>Gained hands-on experience with cutting-edge AI applications</li>
+                    <li>Acquired practical knowledge of integrating AI tools with data analytics platforms</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <div class="skills-list">
+                <span class="skill-tag">English</span>
+                <span class="skill-tag">Hindi</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <div class="skills-list">
+                <span class="skill-tag">Cooking</span>
+                <span class="skill-tag">Gaming</span>
+                <span class="skill-tag">Travelling</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
